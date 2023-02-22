@@ -1,0 +1,381 @@
+Circuit: * E:\Notes\LTspice\LTspice_learnings\Project_signal_noise_reduction_and_signal_retaintion\Signal_noise_reduction_and_signal_retaintion.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v1.  Increasing period to 2e-07
+Limiting rise time of source v2 to 2e-05
+Limiting fall time of source v2 to 2e-05
+WARNING: Less than two connections to node n009.  This node is used by l1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step tperiod=1e-07 von=1 ttrans=1e-07
+.step tperiod=7.1e-06 von=1 ttrans=1e-07
+.step tperiod=1.41e-05 von=1 ttrans=1e-07
+.step tperiod=2.11e-05 von=1 ttrans=1e-07
+.step tperiod=2.81e-05 von=1 ttrans=1e-07
+.step tperiod=3.51e-05 von=1 ttrans=1e-07
+.step tperiod=4.21e-05 von=1 ttrans=1e-07
+.step tperiod=4.7e-05 von=1 ttrans=1e-07
+.step tperiod=1e-07 von=2 ttrans=1e-07
+.step tperiod=7.1e-06 von=2 ttrans=1e-07
+.step tperiod=1.41e-05 von=2 ttrans=1e-07
+.step tperiod=2.11e-05 von=2 ttrans=1e-07
+.step tperiod=2.81e-05 von=2 ttrans=1e-07
+.step tperiod=3.51e-05 von=2 ttrans=1e-07
+.step tperiod=4.21e-05 von=2 ttrans=1e-07
+.step tperiod=4.7e-05 von=2 ttrans=1e-07
+.step tperiod=1e-07 von=3 ttrans=1e-07
+.step tperiod=7.1e-06 von=3 ttrans=1e-07
+.step tperiod=1.41e-05 von=3 ttrans=1e-07
+.step tperiod=2.11e-05 von=3 ttrans=1e-07
+.step tperiod=2.81e-05 von=3 ttrans=1e-07
+.step tperiod=3.51e-05 von=3 ttrans=1e-07
+.step tperiod=4.21e-05 von=3 ttrans=1e-07
+.step tperiod=4.7e-05 von=3 ttrans=1e-07
+.step tperiod=1e-07 von=4 ttrans=1e-07
+.step tperiod=7.1e-06 von=4 ttrans=1e-07
+.step tperiod=1.41e-05 von=4 ttrans=1e-07
+.step tperiod=2.11e-05 von=4 ttrans=1e-07
+.step tperiod=2.81e-05 von=4 ttrans=1e-07
+.step tperiod=3.51e-05 von=4 ttrans=1e-07
+.step tperiod=4.21e-05 von=4 ttrans=1e-07
+.step tperiod=4.7e-05 von=4 ttrans=1e-07
+.step tperiod=1e-07 von=5 ttrans=1e-07
+.step tperiod=7.1e-06 von=5 ttrans=1e-07
+.step tperiod=1.41e-05 von=5 ttrans=1e-07
+.step tperiod=2.11e-05 von=5 ttrans=1e-07
+.step tperiod=2.81e-05 von=5 ttrans=1e-07
+.step tperiod=3.51e-05 von=5 ttrans=1e-07
+.step tperiod=4.21e-05 von=5 ttrans=1e-07
+.step tperiod=4.7e-05 von=5 ttrans=1e-07
+.step tperiod=1e-07 von=6 ttrans=1e-07
+.step tperiod=7.1e-06 von=6 ttrans=1e-07
+.step tperiod=1.41e-05 von=6 ttrans=1e-07
+.step tperiod=2.11e-05 von=6 ttrans=1e-07
+.step tperiod=2.81e-05 von=6 ttrans=1e-07
+.step tperiod=3.51e-05 von=6 ttrans=1e-07
+.step tperiod=4.21e-05 von=6 ttrans=1e-07
+.step tperiod=4.7e-05 von=6 ttrans=1e-07
+.step tperiod=1e-07 von=1 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=1 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=1 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=1 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=1 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=1 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=1 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=1 ttrans=1.2e-06
+.step tperiod=1e-07 von=2 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=2 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=2 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=2 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=2 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=2 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=2 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=2 ttrans=1.2e-06
+.step tperiod=1e-07 von=3 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=3 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=3 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=3 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=3 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=3 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=3 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=3 ttrans=1.2e-06
+.step tperiod=1e-07 von=4 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=4 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=4 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=4 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=4 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=4 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=4 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=4 ttrans=1.2e-06
+.step tperiod=1e-07 von=5 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=5 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=5 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=5 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=5 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=5 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=5 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=5 ttrans=1.2e-06
+.step tperiod=1e-07 von=6 ttrans=1.2e-06
+.step tperiod=7.1e-06 von=6 ttrans=1.2e-06
+.step tperiod=1.41e-05 von=6 ttrans=1.2e-06
+.step tperiod=2.11e-05 von=6 ttrans=1.2e-06
+.step tperiod=2.81e-05 von=6 ttrans=1.2e-06
+.step tperiod=3.51e-05 von=6 ttrans=1.2e-06
+.step tperiod=4.21e-05 von=6 ttrans=1.2e-06
+.step tperiod=4.7e-05 von=6 ttrans=1.2e-06
+.step tperiod=1e-07 von=1 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=1 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=1 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=1 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=1 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=1 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=1 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=1 ttrans=2.3e-06
+.step tperiod=1e-07 von=2 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=2 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=2 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=2 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=2 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=2 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=2 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=2 ttrans=2.3e-06
+.step tperiod=1e-07 von=3 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=3 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=3 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=3 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=3 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=3 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=3 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=3 ttrans=2.3e-06
+.step tperiod=1e-07 von=4 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=4 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=4 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=4 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=4 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=4 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=4 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=4 ttrans=2.3e-06
+.step tperiod=1e-07 von=5 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=5 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=5 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=5 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=5 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=5 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=5 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=5 ttrans=2.3e-06
+.step tperiod=1e-07 von=6 ttrans=2.3e-06
+.step tperiod=7.1e-06 von=6 ttrans=2.3e-06
+.step tperiod=1.41e-05 von=6 ttrans=2.3e-06
+.step tperiod=2.11e-05 von=6 ttrans=2.3e-06
+.step tperiod=2.81e-05 von=6 ttrans=2.3e-06
+.step tperiod=3.51e-05 von=6 ttrans=2.3e-06
+.step tperiod=4.21e-05 von=6 ttrans=2.3e-06
+.step tperiod=4.7e-05 von=6 ttrans=2.3e-06
+.step tperiod=1e-07 von=1 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=1 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=1 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=1 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=1 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=1 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=1 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=1 ttrans=3.4e-06
+.step tperiod=1e-07 von=2 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=2 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=2 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=2 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=2 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=2 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=2 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=2 ttrans=3.4e-06
+.step tperiod=1e-07 von=3 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=3 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=3 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=3 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=3 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=3 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=3 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=3 ttrans=3.4e-06
+.step tperiod=1e-07 von=4 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=4 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=4 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=4 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=4 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=4 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=4 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=4 ttrans=3.4e-06
+.step tperiod=1e-07 von=5 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=5 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=5 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=5 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=5 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=5 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=5 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=5 ttrans=3.4e-06
+.step tperiod=1e-07 von=6 ttrans=3.4e-06
+.step tperiod=7.1e-06 von=6 ttrans=3.4e-06
+.step tperiod=1.41e-05 von=6 ttrans=3.4e-06
+.step tperiod=2.11e-05 von=6 ttrans=3.4e-06
+.step tperiod=2.81e-05 von=6 ttrans=3.4e-06
+.step tperiod=3.51e-05 von=6 ttrans=3.4e-06
+.step tperiod=4.21e-05 von=6 ttrans=3.4e-06
+.step tperiod=4.7e-05 von=6 ttrans=3.4e-06
+.step tperiod=1e-07 von=1 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=1 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=1 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=1 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=1 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=1 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=1 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=1 ttrans=4.5e-06
+.step tperiod=1e-07 von=2 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=2 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=2 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=2 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=2 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=2 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=2 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=2 ttrans=4.5e-06
+.step tperiod=1e-07 von=3 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=3 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=3 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=3 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=3 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=3 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=3 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=3 ttrans=4.5e-06
+.step tperiod=1e-07 von=4 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=4 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=4 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=4 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=4 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=4 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=4 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=4 ttrans=4.5e-06
+.step tperiod=1e-07 von=5 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=5 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=5 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=5 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=5 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=5 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=5 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=5 ttrans=4.5e-06
+.step tperiod=1e-07 von=6 ttrans=4.5e-06
+.step tperiod=7.1e-06 von=6 ttrans=4.5e-06
+.step tperiod=1.41e-05 von=6 ttrans=4.5e-06
+.step tperiod=2.11e-05 von=6 ttrans=4.5e-06
+.step tperiod=2.81e-05 von=6 ttrans=4.5e-06
+.step tperiod=3.51e-05 von=6 ttrans=4.5e-06
+.step tperiod=4.21e-05 von=6 ttrans=4.5e-06
+.step tperiod=4.7e-05 von=6 ttrans=4.5e-06
+.step tperiod=1e-07 von=1 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=1 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=1 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=1 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=1 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=1 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=1 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=1 ttrans=5.6e-06
+.step tperiod=1e-07 von=2 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=2 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=2 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=2 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=2 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=2 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=2 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=2 ttrans=5.6e-06
+.step tperiod=1e-07 von=3 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=3 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=3 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=3 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=3 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=3 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=3 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=3 ttrans=5.6e-06
+.step tperiod=1e-07 von=4 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=4 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=4 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=4 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=4 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=4 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=4 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=4 ttrans=5.6e-06
+.step tperiod=1e-07 von=5 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=5 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=5 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=5 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=5 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=5 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=5 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=5 ttrans=5.6e-06
+.step tperiod=1e-07 von=6 ttrans=5.6e-06
+.step tperiod=7.1e-06 von=6 ttrans=5.6e-06
+.step tperiod=1.41e-05 von=6 ttrans=5.6e-06
+.step tperiod=2.11e-05 von=6 ttrans=5.6e-06
+.step tperiod=2.81e-05 von=6 ttrans=5.6e-06
+.step tperiod=3.51e-05 von=6 ttrans=5.6e-06
+.step tperiod=4.21e-05 von=6 ttrans=5.6e-06
+.step tperiod=4.7e-05 von=6 ttrans=5.6e-06
+.step tperiod=1e-07 von=1 ttrans=6e-06
+.step tperiod=7.1e-06 von=1 ttrans=6e-06
+.step tperiod=1.41e-05 von=1 ttrans=6e-06
+.step tperiod=2.11e-05 von=1 ttrans=6e-06
+.step tperiod=2.81e-05 von=1 ttrans=6e-06
+.step tperiod=3.51e-05 von=1 ttrans=6e-06
+.step tperiod=4.21e-05 von=1 ttrans=6e-06
+.step tperiod=4.7e-05 von=1 ttrans=6e-06
+.step tperiod=1e-07 von=2 ttrans=6e-06
+.step tperiod=7.1e-06 von=2 ttrans=6e-06
+.step tperiod=1.41e-05 von=2 ttrans=6e-06
+.step tperiod=2.11e-05 von=2 ttrans=6e-06
+.step tperiod=2.81e-05 von=2 ttrans=6e-06
+.step tperiod=3.51e-05 von=2 ttrans=6e-06
+.step tperiod=4.21e-05 von=2 ttrans=6e-06
+.step tperiod=4.7e-05 von=2 ttrans=6e-06
+.step tperiod=1e-07 von=3 ttrans=6e-06
+.step tperiod=7.1e-06 von=3 ttrans=6e-06
+.step tperiod=1.41e-05 von=3 ttrans=6e-06
+.step tperiod=2.11e-05 von=3 ttrans=6e-06
+.step tperiod=2.81e-05 von=3 ttrans=6e-06
+.step tperiod=3.51e-05 von=3 ttrans=6e-06
+.step tperiod=4.21e-05 von=3 ttrans=6e-06
+.step tperiod=4.7e-05 von=3 ttrans=6e-06
+.step tperiod=1e-07 von=4 ttrans=6e-06
+.step tperiod=7.1e-06 von=4 ttrans=6e-06
+.step tperiod=1.41e-05 von=4 ttrans=6e-06
+.step tperiod=2.11e-05 von=4 ttrans=6e-06
+.step tperiod=2.81e-05 von=4 ttrans=6e-06
+.step tperiod=3.51e-05 von=4 ttrans=6e-06
+.step tperiod=4.21e-05 von=4 ttrans=6e-06
+.step tperiod=4.7e-05 von=4 ttrans=6e-06
+.step tperiod=1e-07 von=5 ttrans=6e-06
+.step tperiod=7.1e-06 von=5 ttrans=6e-06
+.step tperiod=1.41e-05 von=5 ttrans=6e-06
+.step tperiod=2.11e-05 von=5 ttrans=6e-06
+.step tperiod=2.81e-05 von=5 ttrans=6e-06
+.step tperiod=3.51e-05 von=5 ttrans=6e-06
+.step tperiod=4.21e-05 von=5 ttrans=6e-06
+.step tperiod=4.7e-05 von=5 ttrans=6e-06
+.step tperiod=1e-07 von=6 ttrans=6e-06
+.step tperiod=7.1e-06 von=6 ttrans=6e-06
+.step tperiod=1.41e-05 von=6 ttrans=6e-06
+.step tperiod=2.11e-05 von=6 ttrans=6e-06
+.step tperiod=2.81e-05 von=6 ttrans=6e-06
+.step tperiod=3.51e-05 von=6 ttrans=6e-06
+.step tperiod=4.21e-05 von=6 ttrans=6e-06
+.step tperiod=4.7e-05 von=6 ttrans=6e-06
+
+Date: Wed Feb 22 01:26:45 2023
+Total elapsed time: 344.773 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16889
+traniter = 16523
+tranpoints = 8173
+accept = 6541
+rejected = 1632
+matrix size = 26
+fillins = 8
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 1.42 KB object code size  0.9/0.7/[0.5]
+Matrix Compiler2: 2.39 KB object code size  0.4/0.5/[0.4]
+
